@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)  # Allow React frontend to call this API
 
 # 🔑 Yahan apni Groq API key daalein
-client = Groq(api_key="YOUR_GROQ_API_KEY_HERE")
+client = Groq(api_key="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")
 
 # System prompt — AI ko pata hoga ke uska creator Muzamil Ahmad Mir hai
 SYSTEM_PROMPT = """You are MuzamilBot, an intelligent AI assistant created and developed by Muzamil Ahmad Mir, a talented Python and AI developer.
