@@ -227,7 +227,7 @@ export function ChatBot() {
   </button>
 
   <button
-    onClick={() => window.open("https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME", "_blank")}
+    onClick={() => window.open("https://www.linkedin.com/in/Muzamil-Ahmad-Mir", "_blank")}
     className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg transition-all duration-200"
   >
     <Globe className="w-3 h-3" />
@@ -235,7 +235,7 @@ export function ChatBot() {
   </button>
 
   <button
-    onClick={() => window.open("https://yourportfolio.com", "_blank")}
+    onClick={() => window.open("https://chat-bot-six-lyart.vercel.app", "_blank")}
     className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg transition-all duration-200"
   >
     <Globe className="w-3 h-3" />
