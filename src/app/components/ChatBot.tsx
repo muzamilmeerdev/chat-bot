@@ -217,18 +217,32 @@ export function ChatBot() {
               <span>Full Stack Developer</span>
             </div>
           </div>
-          <div className="flex gap-2 mt-4">
-            <button className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg transition-all duration-200">
-              <Github className="w-3 h-3" />
-              GitHub
-            </button>
-            <button className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg transition-all duration-200">
-              <Globe className="w-3 h-3" />
-              Portfolio
-            </button>
-          </div>
-        </div>
+      <div className="flex gap-2 mt-4">
+  <button
+    onClick={() => window.open("https://github.com/muzamilmeerdev", "_blank")}
+    className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg transition-all duration-200"
+  >
+    <Github className="w-3 h-3" />
+    GitHub
+  </button>
 
+  <button
+    onClick={() => window.open("https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME", "_blank")}
+    className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg transition-all duration-200"
+  >
+    <Globe className="w-3 h-3" />
+    LinkedIn
+  </button>
+
+  <button
+    onClick={() => window.open("https://yourportfolio.com", "_blank")}
+    className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg transition-all duration-200"
+  >
+    <Globe className="w-3 h-3" />
+    Portfolio
+  </button>
+</div>
+        </div>
         {/* Tech Stack */}
         <div className="p-5 border-b border-slate-800">
           <p className="text-slate-500 text-xs uppercase tracking-wider mb-3">Powered By</p>
