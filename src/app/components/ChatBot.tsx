@@ -230,7 +230,7 @@ export function ChatBot() {
   </button>
 
   <button
-    onClick={() => window.open("https://www.linkedin.com/in/Muzamil-Ahmad-Mir", "_blank")}
+    onClick={() => window.open("https://www.linkedin.com/in/Muzamilmeerdev", "_blank")}
     className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg transition-all duration-200"
   >
     <Globe className="w-3 h-3" />
@@ -238,7 +238,7 @@ export function ChatBot() {
   </button>
 
   <button
-    onClick={() => window.open("https://chat-bot-six-lyart.vercel.app", "_blank")}
+    onClick={() => window.open("https://chat-bot-by-muzamil.vercel.app", "_blank")}
     className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 px-3 py-1.5 rounded-lg transition-all duration-200"
   >
     <Globe className="w-3 h-3" />
