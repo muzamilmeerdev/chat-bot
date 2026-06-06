@@ -16,7 +16,7 @@ const FLASK_API_URL =
 
 // Keywords that mean "who made you / who created you" in many languages
 const CREATOR_KEYWORDS = [
-  "who made you", "who created you", "who built you", "who developed you",
+  "who made you", "who created you", "who build you", "who developed you",
   "who is your creator", "who is your developer", "who is your maker",
   "tumhe kisne banaya", "kisne banaya", "aapko kisne banaya",
   "tumhari creator", "kaun banaya", "kia bnaya", "kis na banaya",
