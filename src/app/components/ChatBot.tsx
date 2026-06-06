@@ -9,7 +9,10 @@ interface Message {
   timestamp: Date;
 }
 
-const FLASK_API_URL = "http://localhost:5000/chat";
+const FLASK_API_URL =
+  import.meta.env.DEV
+    ? "http://localhost:5000/chat"
+    : "https://chat-bot-3-9qyc.onrender.com/chat";
 
 // Keywords that mean "who made you / who created you" in many languages
 const CREATOR_KEYWORDS = [
